@@ -2,7 +2,7 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-public class Job {
+public static class Job {
 
     private int id;
     private static int nextId = 1;
@@ -18,7 +18,8 @@ public class Job {
     //  the 'id' field.
 
     public Job() {
-        this.id = id;
+        id = nextId;
+        nextId++;
     }
 
     public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
@@ -92,4 +93,16 @@ public class Job {
     public void setCoreCompetency(CoreCompetency coreCompetency) {
         this.coreCompetency = coreCompetency;
     }
+}
+
+@Override
+public String toString() {
+    return "Job{" + System.lineSeparator() +
+            "  Name: " + name + "," + System.lineSeparator() +
+            "  Employer: " + employer + "," + System.lineSeparator() +
+            "  Location: " + location + "," + System.lineSeparator() +
+            "  PositionType: " + positionType + "," + System.lineSeparator() +
+            "  CoreCompetency: " + coreCompetency + System.lineSeparator() +
+            '}';
+
 }

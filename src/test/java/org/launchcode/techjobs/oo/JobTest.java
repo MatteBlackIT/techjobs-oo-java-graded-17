@@ -31,4 +31,27 @@ public class JobTest {
        assertFalse(equals(emptyJobOne) != equals(emptyJobTwo));
    }
 
+    @Test
+    public void testToStringStartsAndEndsWithNewLine() {
+        Job emptyJobOne = new Job("Anakin Skywalker", new Employer("Jedi Council"), new Location("Coruscant"), new PositionType("not the rank of master"), new CoreCompetency("General"));
+
+            String testToString = newline +
+                    "Job{ " +
+                    "Id: " + emptyJobOne.getId() + ", " +
+                    "Name: " + emptyJobOne.getName() + ", " +
+                    "Employer: " + emptyJobOne.geteEmployer() + ", " +
+                    "Location: " + emptyJobOne.getLocation() + ", " +
+                    "PostionType: " + emptyJobOne.getPositionType() + ", " +
+                    "CoreCompetency: " + emptyJobOne.getCoreCompetency() + "}" + newline;
+            ;
+
+        assertEquals(expectedString.startsWith(newline) && expectedString.endswith(newline), emptyJobOne.toString().startsWith(newline) && emptyJobOne.toString().endsWith(newline));
+    }
+
+    @Test
+    public void testToStringContainsCorrectLabelsAndData() {
+
+    }
+
+
 }
