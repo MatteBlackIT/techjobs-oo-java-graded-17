@@ -2,7 +2,7 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-public static class Job {
+public class Job {
 
     private int id;
     private static int nextId = 1;
@@ -45,6 +45,18 @@ public static class Job {
         return Objects.hash(id, name, employer, location, positionType, coreCompetency);
     }
 
+    @Override
+    public String toString() {
+        String newline = System.lineSeparator();
+        return  newline +
+                "ID: " + id + newline +
+                "Name: " + (name != null && !name.isEmpty() ? name : "Data not available") + newline +
+                "Employer: " + (employer != null && !employer.getValue().isEmpty() ? employer : "Data not available") + newline +
+                "Location: " + (location != null && !location.getValue().isEmpty() ? location : "Data not available") + newline +
+                "Position Type: " + (positionType != null && !positionType.getValue().isEmpty() ? positionType : "Data not available") + newline +
+                "Core Competency: " + (coreCompetency != null && !coreCompetency.getValue().isEmpty() ? coreCompetency : "Data not available") + newline;
+
+    }
 
     // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
     //  and id.
@@ -95,14 +107,3 @@ public static class Job {
     }
 }
 
-@Override
-public String toString() {
-    return "Job{" + System.lineSeparator() +
-            "  Name: " + name + "," + System.lineSeparator() +
-            "  Employer: " + employer + "," + System.lineSeparator() +
-            "  Location: " + location + "," + System.lineSeparator() +
-            "  PositionType: " + positionType + "," + System.lineSeparator() +
-            "  CoreCompetency: " + coreCompetency + System.lineSeparator() +
-            '}';
-
-}
