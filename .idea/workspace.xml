@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,8 @@
     "Gradle.TestTaskFour.executor": "Run",
     "Gradle.TestTaskSix.executor": "Run",
     "Gradle.TestTaskThree.executor": "Run",
+    "Gradle.TestTaskThree.testEqualsMethod.executor": "Run",
+    "Gradle.TestTaskThree.testHashCodeMethod.executor": "Run",
     "Gradle.TestTaskTwo.testSecondLocationConstructorExists.executor": "Run",
     "Gradle.Tests in 'org.launchcode.techjobs.oo'.executor": "Run",
     "Gradle.techjobs-oo-java-graded-17 [:Main.main()].executor": "Run",
@@ -96,8 +100,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.TestTaskFive.testToStringStartsAndEndsWithNewLine">
-    <configuration name="JobTest.testToStringHandlesEmptyField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TestTaskThree">
+    <configuration name="JobTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringHandlesEmptyField&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -121,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskFive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JobTest.testJobsForEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskFive&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testJobsForEquality&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +149,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskFive.testTestToStringHandlesEmptyFieldExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskFive.testTestToStringHandlesEmptyFieldExists&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +173,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskFive.testToStringContainsCorrectLabelsAndData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testEqualsMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskFive.testToStringContainsCorrectLabelsAndData&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testEqualsMethod&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +197,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskFive.testToStringStartsAndEndsWithNewLine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testHashCodeMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskFive.testToStringStartsAndEndsWithNewLine&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testHashCodeMethod&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,19 +222,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
-      <item itemvalue="Gradle.TestTaskFive" />
-      <item itemvalue="Gradle.TestTaskFive.testTestToStringHandlesEmptyFieldExists" />
-      <item itemvalue="Gradle.TestTaskFive.testToStringContainsCorrectLabelsAndData" />
-      <item itemvalue="Gradle.TestTaskFive.testToStringStartsAndEndsWithNewLine" />
+      <item itemvalue="Gradle.JobTest" />
+      <item itemvalue="Gradle.TestTaskThree" />
+      <item itemvalue="Gradle.TestTaskThree.testEqualsMethod" />
+      <item itemvalue="Gradle.TestTaskThree.testHashCodeMethod" />
+      <item itemvalue="Gradle.JobTest.testJobsForEquality" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestTaskFive.testToStringStartsAndEndsWithNewLine" />
-        <item itemvalue="Gradle.TestTaskFive" />
-        <item itemvalue="Gradle.TestTaskFive.testToStringContainsCorrectLabelsAndData" />
-        <item itemvalue="Gradle.TestTaskFive.testTestToStringHandlesEmptyFieldExists" />
-        <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
+        <item itemvalue="Gradle.TestTaskThree" />
+        <item itemvalue="Gradle.TestTaskThree.testEqualsMethod" />
+        <item itemvalue="Gradle.JobTest" />
+        <item itemvalue="Gradle.JobTest.testJobsForEquality" />
+        <item itemvalue="Gradle.TestTaskThree.testHashCodeMethod" />
       </list>
     </recent_temporary>
   </component>

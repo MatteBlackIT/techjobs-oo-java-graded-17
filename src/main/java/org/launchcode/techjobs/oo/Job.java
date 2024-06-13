@@ -23,6 +23,7 @@ public class Job {
     }
 
     public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
+        this();
         this.name = name;
         this.employer = employer;
         this.location = location;
@@ -37,12 +38,12 @@ public class Job {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Job job)) return false;
-        return id == job.id && Objects.equals(name, job.name) && Objects.equals(employer, job.employer) && Objects.equals(location, job.location) && Objects.equals(positionType, job.positionType) && Objects.equals(coreCompetency, job.coreCompetency);
+        return id == job.id;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, employer, location, positionType, coreCompetency);
+        return Objects.hash(getId());
     }
 
     @Override

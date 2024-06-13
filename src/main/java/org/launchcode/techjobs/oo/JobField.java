@@ -39,7 +39,7 @@ public abstract class JobField {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof JobField jobField)) return false;
-        return getId() == jobField.getId();
+        return id == jobField.id;
     }
 
     @Override
